@@ -8305,7 +8305,7 @@ fieldset:disabled .btn {
 }
 
 .text-danger {
-    color: red !important
+    color: #ff0000bf !important
 }
 
 .text-light {

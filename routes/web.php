@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\HomeController;
+use App\Http\Controllers\Backend\DashboardController;
+use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,9 +16,7 @@ use App\Http\Controllers\Frontend\HomeController;
 |
 */
 
-Route::get('/hlo',[HomeController::class,'index']);
+Route::get('/',[HomeController::class,'index']);
+Route::get('/dashboard',[DashboardController::class,'index']);
 
-Route::get('/', function(){
-   
-    return View('frontand.index');
-});
+
