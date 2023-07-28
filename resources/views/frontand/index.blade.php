@@ -64,13 +64,7 @@
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="{{url('frontend/img/nature2.jpg')}}" alt="" style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                   
-                    <h1 class="mb-4 text-dark">Welcome to <span class="text-dark">XPLORE</span></h1>
+                <h1 class="mb-4 text-dark">Welcome to <span class="text-dark">XPLORE</span></h1>
                     <p class="mb-4">Welcome to our beautiful destination, where the sun-kissed shores meet vibrant cityscapes, and ancient wonders coexist with modern marvels. We extend a warm and heartfelt welcome to all the adventurous souls seeking new horizons and unforgettable experiences. </p>
                     <p class="mb-4">Adventure awaits around every corner, from thrilling outdoor activities like hiking, biking, and water sports, to exploring hidden gems and encountering wildlife in their natural habitats. Feel the rush as you zip-line through the treetops, or unwind and rejuvenate in tranquil spas and wellness retreats.</p>
                     <div class="row gy-2 gx-4 mb-4">
@@ -95,6 +89,12 @@
                     </div>
                     <a class="btn btn-danger py-3 px-5 mt-2" href="">Read More</a>
                 </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                   
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="{{url('frontend/img/nature2.jpg')}}" alt="" style="object-fit: cover;">
+                    </div>
+               </div>
             </div>
         </div>
     </div>

@@ -17,6 +17,9 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 */
 
 Route::get('/',[HomeController::class,'index']);
-Route::get('/dashboard',[DashboardController::class,'index']);
+Route::get('/loginfirst',[DashboardController::class,'index']);
+Route::get('/customerdashboard',[CustomerController::class,'index']);
+
+Route::get('/aboutus',[HomeController::class,'aboutus']);
 
 
