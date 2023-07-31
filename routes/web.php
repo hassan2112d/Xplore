@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Backend\DashboardController;
-use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +20,11 @@ Route::get('/',[HomeController::class,'index']);
 Route::get('/loginfirst',[DashboardController::class,'index']);
 Route::get('/customerdashboard',[CustomerController::class,'index']);
 
-Route::get('/aboutus',[HomeController::class,'aboutus']);
+Route::get('/about',[HomeController::class,'aboutus']);
+Route::get('/contact',[HomeController::class,'contactus']);
+Route::get('/services',[HomeController::class,'services']);
+Route::get('/plans',[HomeController::class,'plans']);
+Route::get('/packages',[HomeController::class,'packages']);
+Route::get('/gallery',[HomeController::class,'gallery']);
 
 

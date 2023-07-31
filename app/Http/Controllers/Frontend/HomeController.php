@@ -17,10 +17,37 @@ class HomeController extends Controller
 
       return view("frontand.about");
       
+   }
+   public function contactus()
+   {
 
+     return view("frontand.contact");
 
    }
+   public function services()
+   {
 
+     return view("frontand.services");
+
+   }
+   public function gallery()
+   {
+
+     return view("frontand.gallery");
+
+   }
+   public function plans()
+   {
+
+     return view("frontand.plans");
+
+   }
+   public function packages()
+   {
+
+     return view("frontand.packages");
+
+   }
 
 
   }

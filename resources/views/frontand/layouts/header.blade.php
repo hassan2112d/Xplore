@@ -31,6 +31,9 @@
 
     <!-- Template Stylesheet -->
     <link href="{{url('frontend/css/style.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 
     <style>
      
@@ -49,7 +52,7 @@
     <!-- Navbar & Hero Start -->
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-            <a href="index.html" class="navbar-brand p-0">
+            <a href="{{url('')}}" class="navbar-brand p-0">
                 <h1 class=" text-danger animated fadeInUp">XPLORE</h1>
                 <!-- <img src="img/logo.png" alt="Logo"> -->
             </a>
@@ -58,10 +61,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0 animated fadeInUp">
-                    <a href="index.html" class="nav-item nav-link active" id="home" >Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Services</a>
-                    <a href="package.html" class="nav-item nav-link">Packages</a>
+                    <a href="{{url('')}}" class="nav-item nav-link active" id="home" >Home</a>
+                    <a href="{{url('about')}}" class="nav-item nav-link">About</a>
+                    <a href="{{url('')}}" class="nav-item nav-link">Services</a>
+                    <a href="{{url('')}}" class="nav-item nav-link">Packages</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
@@ -72,7 +75,7 @@
                             
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="{{url('contact')}}" class="nav-item nav-link">Contact</a>
                 </div>
                 <a href="" id="register" class="btn btn-danger rounded py-2 px-4 animated fadeInUp">Get Started</a>
             </div>
